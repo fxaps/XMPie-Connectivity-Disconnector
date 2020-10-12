@@ -1,0 +1,6 @@
+/.idea/
+/vendor/
+/logs/
+/tmp/
+
+/_config.php

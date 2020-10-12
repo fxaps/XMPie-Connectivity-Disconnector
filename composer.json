@@ -1,0 +1,25 @@
+{
+  "name": "fxaps/xmpie-connectivity-disconnector",
+  "description": "Disconnect XMPie Connectivity connections to the uProduce Server",
+  "type": "app",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "cakephp/utility": "*",
+    "cakephp/core": "*",
+    "fxaps/xmpie-wsdl-wrapper-uproduce": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Test\\": "tests/"
+    }
+  },
+  "prefer-stable": true
+}
